@@ -1,0 +1,92 @@
+# 바이트 코드 컴파일 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CPython 디버그 파일
+*.pyd
+*.pyo
+*.pyc
+
+# 패키지 디렉터리
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# PyInstaller
+# 보통 PyInstaller로 생성된 실행 파일/폴더를 무시
+*.manifest
+*.spec
+pyinstaller/
+
+# Jupyter 노트북
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+# https://github.com/pypa/pipenv/issues/598
+Pipfile.lock
+
+# 가상 환경
+.env
+venv/
+ENV/
+
+# Spyder 프로젝트 설정
+.spyderproject
+.spyproject
+
+# PyCharm 프로젝트 설정
+.idea/
+
+# VS Code 설정
+.vscode/
+
+# Enthought Canopy 설정
+.metadata
+config.ini
+*.swp
+
+# Rope 프로젝트 설정
+.ropeproject
+
+# mkdocs 문서
+/site
+
+# mypy
+.mypy_cache/
+
+# 로컬 개발 설정
+local_settings.py
+
+# 로그 파일
+*.log
+
+# 환경 설정 파일
+.env
+.env.local
+
+# OS 생성 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+detectron2/
+downloaded_images/
+*.deb
+*.pth
